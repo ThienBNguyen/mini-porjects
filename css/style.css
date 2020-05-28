@@ -3,6 +3,7 @@ body{
     background-image: url(https://images.unsplash.com/photo-1501139083538-0139583c060f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80);
     background-size: cover;
     color: white;
+    text-transform: capitalize;
 }
 .fas{
 font-size: 1.5em;
@@ -12,4 +13,24 @@ p{
     font-size: 1.7em;
     display: inline-block;
 
+}
+input{
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid white;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 500;
+    box-shadow: 2px 2px 4px 2px white;
+    width: 50px;
+}
+#option > .fas{
+padding: 4px;
+
+}
+ .fas:hover{
+    font-size: larger;
+    transition: ease-in .1s;
+    color: lightblue;
+    cursor: pointer;
 }
